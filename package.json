@@ -1,0 +1,57 @@
+{
+    "name": "@greg-hammond/ui-comp-test",
+    "version": "0.0.0",
+    "main": "src/index.ts",
+    "files": [
+        "src/ui/"
+    ],
+    "scripts": {
+        "dev": "solid-start dev --port 3103",
+        "build": "solid-start build",
+        "format": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint": "eslint . --report-unused-disable-directives",
+        "lint:fix": "eslint . --fix",
+        "start": "solid-start start --port 3103"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/lodash-es": "^4.17.7",
+        "@types/marked": "^5.0.0",
+        "@types/node": "^20.3.1",
+        "@typescript-eslint/eslint-plugin": "^5.60.0",
+        "@typescript-eslint/parser": "^5.60.0",
+        "esbuild": "^0.18.4",
+        "eslint": "^8.43.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-solid": "^0.12.1",
+        "postcss": "^8.4.24",
+        "prettier": "^2.8.8",
+        "sass": "^1.63.4",
+        "solid-devtools": "^0.27.3",
+        "solid-start-node": "^0.2.26",
+        "typescript": "^5.1.3",
+        "vite": "^4.3.9"
+    },
+    "dependencies": {
+        "@solidjs/meta": "^0.28.5",
+        "@solidjs/router": "^0.8.2",
+        "@thisbeyond/solid-dnd": "^0.7.4",
+        "@types/chroma-js": "^2.4.0",
+        "chroma-js": "^2.4.2",
+        "date-fns": "^2.30.0",
+        "highlight.js": "^11.8.0",
+        "lodash-es": "^4.17.21",
+        "marked": "^5.1.0",
+        "solid-icons": "^1.0.8",
+        "solid-js": "^1.7.6",
+        "solid-start": "^0.2.26",
+        "undici": "^5.22.1"
+    },
+    "engines": {
+        "node": ">=16.8"
+    },
+    "repository": {
+        "url": "git://github.com/greg-hammond/ui-comp-test.git"
+    }
+}
