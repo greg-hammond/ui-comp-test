@@ -1,10 +1,21 @@
 {
     "name": "@greg-hammond/ui-comp-test",
-    "version": "0.0.1",
-    "main": "src/index.ts",
+    "version": "0.0.2",
+    "main": "dist/public/server.js",
+    "module": "dist/public/server.js",
+    "source": "src/index.ts",
     "files": [
-        "src/ui/"
+        "dist"
     ],
+    "exports": {
+        ".": {
+            "solid": "./dist/source/ui-comp-test.jsx",
+            "import": "./dist/esm/ui-comp-test.js",
+            "browser": "./dist/esm/ui-comp-test.js",
+            "require": "./dist/cjs/ui-comp-test.js",
+            "node": "./dist/cjs/ui-comp-test.js"
+        }
+    },
     "scripts": {
         "dev": "solid-start dev --port 3103",
         "build": "solid-start build",
