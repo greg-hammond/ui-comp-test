@@ -1,6 +1,6 @@
 {
     "name": "@greg-hammond/ui-comp-test",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "main": "src/index.ts",
     "files": [
         "src/ui/"
@@ -27,6 +27,8 @@
         "eslint-plugin-solid": "^0.12.1",
         "postcss": "^8.4.24",
         "prettier": "^2.8.8",
+        "rollup": "^3.25.1",
+        "rollup-preset-solid": "^2.0.1",
         "sass": "^1.63.4",
         "solid-devtools": "^0.27.3",
         "solid-start-node": "^0.2.26",
