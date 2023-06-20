@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(217deg 14% 68%);
+    background-color: hsl(220deg 20% 10%);
+    font-family: 'Noto Sans', 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

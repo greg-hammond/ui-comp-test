@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    color: hsl(200, 70%, 38%);
+    border-bottom: 1px solid #333;
+    background: linear-gradient(to right,
+            hsl(217, 100%, 5%),
+            hsl(217, 50%, 20%));
+    padding-right: 3rem;
+
+    h1 {
+        border-left: 1px solid #333;
+        padding: 0.5rem 2rem;
+    }
+}

@@ -1,0 +1,36 @@
+.button {
+
+    --dflt-color: #222;
+    --dflt-hover-color: hsl(205, 70%, 40%);
+    --dflt-bkg: #aaa;
+    --dflt-hover-bkg: hsl(205, 30%, 70%);
+    --dflt-border: #222;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--button-text-color, var(--dflt-color));
+    background: var(--button-bkg-color, var(--dflt-bkg));
+    border-color: var(--button-border-color, var(--dflt-border));
+
+    width: fit-content;
+    margin: 0.2rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+    outline: none;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    padding: 0.5rem 1rem;
+    font-size: 100%;
+    margin: 0.3rem;
+
+    &:hover {
+        color: var(--button-hover-color, var(--dflt-hover-color));
+        background: var(--button-hover-bkg-color, var(--dflt-hover-bkg));
+    }
+
+}
